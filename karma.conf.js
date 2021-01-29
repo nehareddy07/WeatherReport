@@ -10,6 +10,9 @@ module.exports = function (config) {
       require('karma-chrome-launcher'),
       require('karma-remap-istanbul'),
       require('angular-cli/plugins/karma')
+	    // made some changes 
+	    // HI 
+	    //
     ],
     files: [
       { pattern: './src/test.ts', watched: false }
